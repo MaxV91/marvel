@@ -1,6 +1,5 @@
 import {Component} from "react";
 import './randomChar.scss';
-import thor from '../../resources/img/thor.jpeg';
 import mjolnir from '../../resources/img/mjolnir.png';
 import MarvelService from "../../services/MarvelService";
 import Spinner from "../spinner/Spinner";
@@ -70,6 +69,8 @@ class RandomChar extends Component {
 
 const View = ({ char }) => {
   const { name, description, thumbnail, homepage, wiki } = char;
+
+  // TODO add trim string and if noData description
 
   return (
     <div className="randomchar__block">
