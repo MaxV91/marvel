@@ -1,13 +1,6 @@
-import {Component, useState, lazy, Suspense} from "react";
+import {lazy, Suspense} from "react";
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import AppHeader from "../appHeader/AppHeader";
-import RandomChar from "../randomChar/RandomChar";
-import CharList from "../charList/CharList";
-import CharInfo from "../charInfo/CharInfo";
-import decoration from '../../resources/img/vision.png';
-import ErrorBoundary from "../errorBoundary/ErrorBoundary";
-import ComicsList from "../comicsList/ComicsList";
-import AppBanner from "../appBanner/AppBanner";
 import Spinner from "../spinner/Spinner";
 
 const Page404 = lazy(() => import('../../pages/404'));
