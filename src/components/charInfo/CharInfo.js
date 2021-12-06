@@ -1,7 +1,6 @@
-import {Component, useEffect, useState} from "react";
+import { useEffect, useState } from "react";
 import PropTypes from 'prop-types';
 import './charInfo.scss';
-import thor from '../../resources/img/thor.jpeg';
 import useMarvelService from "../../services/MarvelService";
 import ErrorMessage from "../errorMessage/ErrorMessage";
 import Spinner from "../spinner/Spinner";

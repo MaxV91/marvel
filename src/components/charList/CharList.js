@@ -1,9 +1,7 @@
-import {Component, useEffect, useRef, useState} from "react";
+import { useEffect, useRef, useState } from "react";
 import './charList.scss';
-import abyss from '../../resources/img/abyss.jpg';
 import useMarvelService from "../../services/MarvelService";
 import ErrorMessage from "../errorMessage/ErrorMessage";
-import {load} from "sass";
 import Spinner from "../spinner/Spinner";
 
 const CharList = (props) => {
