@@ -1,8 +1,6 @@
 import {useEffect, useState} from "react";
 import './comicsList.scss';
 import useMarvelService from "../../services/MarvelService";
-import uw from '../../resources/img/UW.png';
-import xMen from '../../resources/img/x-men.png';
 import ErrorMessage from "../errorMessage/ErrorMessage";
 import Spinner from "../spinner/Spinner";
 import {Link} from "react-router-dom";
